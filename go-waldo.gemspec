@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "go-waldo"
-  s.version = ""
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Reinaldo Junior"]
   s.date = "2012-10-12"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Find where is your commit inside the Go pipelines"
   s.email = "juniorz@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -24,6 +24,8 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
+    "go-waldo.gemspec",
     "lib/go-waldo.rb",
     "spec/go-waldo_spec.rb",
     "spec/spec_helper.rb"
