@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/juniorz/go-waldo"
   gem.license = "MIT"
   gem.summary = %Q{Where's my commit?}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{Find where is your commit inside the Go pipelines}
   gem.email = "juniorz@gmail.com"
   gem.authors = ["Reinaldo Junior"]
   # dependencies defined in Gemfile
